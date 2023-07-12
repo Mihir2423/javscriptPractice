@@ -19,7 +19,7 @@ console.log(student);
 let FirstName = "Anu";
 let LastName = "Pandit";
 // Print the variable according to this example :  My name is Anu Bhav
-console.log("My name is", FirstName ,"Bhav")
+console.log("My name is", FirstName , LastName)
 // Extra
 // - Create one <p> element in html and give it a id = "p"
 // - Select that id as shown on the video and make its value "Hello Paragraph"
