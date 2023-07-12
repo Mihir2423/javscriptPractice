@@ -7,12 +7,20 @@ operators are(+ - * / %)
 let a = 7;
 let b = 3;
 // Perform all the Aritmetic operation to them (*, /, +, -, %)
-//a = a + b;
-//a = a- b;
-//a = a * b;
+a = a + b;
+console.log("Addition Result",a);
+
+a = a- b;
+
+
+a = a * b;
+
+
 a = a / b;
-//a = a % 2;
+
+
+a = a % 2;
+
 // Print all the results like this example : 
 // if + operation is done -> Output : Addition Result 10 
 // (where 10 is the sum of a + b)
-console.log(a);
