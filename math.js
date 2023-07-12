@@ -1,0 +1,1 @@
+// Show all the examples of math inbuilt functions and print all of them with a proper message
