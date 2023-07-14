@@ -1,11 +1,12 @@
 // Repeat the things done in video 
 //we can take input by user in 2 types
 //1st way= Easy way with a window prompt
-let username= window.prompt ("What's your name?");
-console.log(username);
+//let username= window.prompt ("What's your name?");
+//console.log(username);
 //Difficult Way Html Textbox
 let username;
-document.getElementById("").onclick = function{
-
+document.getElementById("mybutton").onclick = function(){
+    username = getElementById("mytext").value;
+    console.log(username);
 } 
 //let username1= document.getElementById("username1").value;
