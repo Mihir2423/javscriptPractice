@@ -8,5 +8,5 @@ let username;
 document.getElementById("mybutton").onclick = function(){
     username = getElementById("mytext").value;
     console.log(username);
+    document.getElementById("mylabel").innerHTML = username;//innerhtml is used to change value accrding to input...........
 } 
-//let username1= document.getElementById("username1").value;
