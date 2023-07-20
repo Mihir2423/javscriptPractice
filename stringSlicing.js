@@ -3,3 +3,13 @@
 // Output : First Word : This, Second Word : string
 
 // ! Follow this output format
+
+let fullword = "This is a string";
+let firstword;
+let lastword;
+
+firstword = fullword.slice(0 , 4);
+lastword = fullword.slice(10);
+
+console.log("First Word:",firstword);
+console.log("Second Word:",lastword);
