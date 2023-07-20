@@ -8,8 +8,11 @@ let fullword = "This is a string";
 let firstword;
 let lastword;
 
-firstword = fullword.slice(0 , 4);
-lastword = fullword.slice(10);
+fullword = fullword.trim(); // To get rid of case where there are spaces before or after the string
 
-console.log("First Word:",firstword);
-console.log("Second Word:",lastword);
+firstword = fullword.slice(0, fullword?.indexOf(" "));
+lastword = fullword.slice(fullword?.lastIndexOf(" ") + 1);
+// "?" : this is called method chaining - google kro
+
+console.log("First Word:", firstword);
+console.log("Second Word:", lastword);
