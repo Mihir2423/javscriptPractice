@@ -4,7 +4,6 @@
 
 let username =  "string";
 
-let letter = username.charAt(1);
-letter = letter.toUpperCase();
+let letter = username.charAt(1).toUpperCase();
 
 console.log(letter);
