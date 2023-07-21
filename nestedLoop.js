@@ -8,3 +8,18 @@
 //              * *
 //              * * * 
 //              * * * *
+
+document.getElementById("mybutton").onclick = function(){
+    let rows = Number(document.getElementById("mytext").value);
+    let columns = Number(document.getElementById("text").value);
+    let output = document.getElementById("newtext");
+    let pattern = "";
+
+    for (let i = 1; i <= rows; i++) {
+        for (let j = 1; j <= i && j <= columns; j++) {
+            pattern += '*';
+        }
+        pattern += '<br>';
+    }
+    output.innerHTML = pattern;
+}
