@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JAVASCRIPT Practice</title>
+  </head>
+  <body>
+    <h1>Temperature Converter</h1>
+    <label for="tempInput">Enter temperature:</label>
+    <input type="number" id="tempInput">
+    <select id="fromUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+    </select>
+    <button onclick="convertTemperature()">Convert</button>
+    <p id="result"></p>
+    <script src="tempConversion.js"></script>
+  </body>
+</html>
