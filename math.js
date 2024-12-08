@@ -13,3 +13,5 @@ let  w = 2;
 maximum = Math.max(x , y ,z);
 minimum = Math.min(x , y ,z);
 console.log(x);
+
+export default name = "Anubhav"

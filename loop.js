@@ -3,7 +3,7 @@
 // if number is a multiple of 13 dont print it (apply continue statement)
 // if the number is equal to you variable, break out from the loop.
 
-
+import name from "./math"
 const randomnumber = Math.floor(Math.random() * (99 - 30 + 1)) + 30;
 
 console.log("Random Integer:", randomnumber);
